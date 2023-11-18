@@ -1,5 +1,5 @@
-test2.txt
-
+# Ignore node_modules directory
 node_modules/
 
+# Ignore .next directory
 .next/
