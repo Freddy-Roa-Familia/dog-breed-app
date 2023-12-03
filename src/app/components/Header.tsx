@@ -9,8 +9,8 @@ export default function Header(props: HeaderProps) {
 
   return (
     <>
-      <div className="flex items-center ml-4">
-        <h1 className="text-3xl"> {title} </h1>
+      <div className="flex items-center bg-indigo-400 pl-4 mb-4">
+        <h1 className="text-3xl text-white"> {title} </h1>
         <img
           src={logo}
           alt="Default Logo"

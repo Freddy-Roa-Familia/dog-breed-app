@@ -3,3 +3,5 @@ node_modules/
 
 # Ignore .next directory
 .next/
+
+.DS_Store

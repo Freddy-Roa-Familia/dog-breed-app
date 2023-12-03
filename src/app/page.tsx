@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <div>
-        <Header title="Doggy App" logo="logo.png" />
+        <Header title="Doggy App" logo="logo.svg" />
       </div>
 
       <div className='grid grid-cols-2 gap-4'>
