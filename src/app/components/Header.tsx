@@ -4,8 +4,16 @@ export default function Header(props:any) {
 
   return (
     <>
-      <img src={logo} alt="Default Logo"></img>
-      <h1> {title} </h1>
+      <div className="flex items-center">
+        <h1 className="text-3xl"> {title} </h1>
+        <img 
+          src={logo} 
+          alt="Default Logo"
+          className="w-44"
+        >
+        </img>
+      </div>
+      
     </>
   )
 }
