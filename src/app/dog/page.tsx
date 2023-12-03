@@ -1,4 +1,3 @@
-
 export default function Dog (props:any) {
   let breed = props.breed;
   let image = props.image;
