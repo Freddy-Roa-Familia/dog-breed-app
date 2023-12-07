@@ -19,3 +19,6 @@ export default function Header({ title, logo }: HeaderProps) {
     </>
   )
 }
+
+// HTML EXAMPLE
+// <Header title="Doggy App" logo="logo.svg" />
